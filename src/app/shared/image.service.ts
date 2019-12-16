@@ -27,6 +27,11 @@ const IMAGES = [
   {id: 23, category: 'heute', caption: 'Bremen Nov. 2019', url: 'assets/my_images/a23.jpg'},
   {id: 24, category: 'heute', caption: 'Bremen Nov. 2019', url: 'assets/my_images/a24.jpg'},
   {id: 25, category: 'heute', caption: 'Bremen Nov. 2019', url: 'assets/my_images/a25.jpg'},
+  {id: 26, category: 'heute', caption: 'Büro Bremen Nov. 2019', url: 'assets/my_images/a26.jpg'},
+  {id: 27, category: 'heute', caption: 'Büro Bremen Nov. 2019', url: 'assets/my_images/a27.jpg'},
+  {id: 28, category: 'heute', caption: 'Büro Bremen Nov. 2019', url: 'assets/my_images/a28.jpg'},
+  {id: 29, category: 'heute', caption: 'Büro Bremen Nov. 2019', url: 'assets/my_images/a29.jpg'},
+  {id: 30, category: 'heute', caption: 'Büro Bremen Nov. 2019', url: 'assets/my_images/a30.jpg'},
 ];
 
 @Injectable({
