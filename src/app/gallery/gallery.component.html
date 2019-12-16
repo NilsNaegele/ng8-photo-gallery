@@ -55,11 +55,11 @@
     <div class="container-fluid">
         
         <ul id="thumbnailslist">
-            <!-- <li *ngFor="let image of (visibleImages | imageFilter:filterBy)">
-                <a [routerLink]="['/image', image.id]">
+            <li *ngFor="let image of (visibleImages | imageFilter:filterBy)">
+                <a [routerLink]="['/bild', image.id]">
                     <img src="{{image.url}}" class="tn" width="200" >
                 </a>
-            </li> -->
+            </li>
         </ul>
     </div>
 </div>
