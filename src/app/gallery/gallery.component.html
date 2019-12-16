@@ -1,1 +1,66 @@
-<p>gallery works!</p>
+<div class="wrapper">
+    <nav id="sidebar" [ngClass]="classes">
+        <div class="sidebar-header">
+            <h3>Held Gallerie</h3>
+        </div>
+        <ul class="list-unstyled components">
+            <li>Nach Kategorie filtern</li>
+            <button class="btn btn-lg btn-info">
+                <span class="glyphicon glyphicon-play"></span>
+                Alle<span class="selected"></span>
+            </button>
+            <button class="btn btn-lg btn-info">
+                <span class="glyphicon glyphicon-play"></span>
+                Heute
+            </button>
+            <button class="btn btn-lg btn-info">
+                <span class="glyphicon glyphicon-play"></span>
+                Marathon Berlin
+            </button>
+            <button class="btn btn-lg btn-info">
+                <span class="glyphicon glyphicon-play"></span>
+                Marathon Köln
+            </button>
+            <button class="btn btn-lg btn-info">
+                <span class="glyphicon glyphicon-play"></span>
+                Marathon Karlsruhe
+            </button>
+            <button class="btn btn-lg btn-info">
+                <span class="glyphicon glyphicon-play"></span>
+                Marathon Bremen
+            </button>
+            <button class="btn btn-lg btn-info">
+                <span class="glyphicon glyphicon-play"></span>
+                Marathon Frankfurt
+            </button>
+            <button class="btn btn-lg btn-info">
+                <span class="glyphicon glyphicon-play"></span>
+                Marathon Marseille
+            </button>
+            <button class="btn btn-lg btn-info">
+                <span class="glyphicon glyphicon-play"></span>
+                Marathon Freiburg
+            </button>
+            <button class="btn btn-lg btn-info">
+                <span class="glyphicon glyphicon-play"></span>
+                Extreme Wettkämpfe ...
+            </button>
+        </ul>
+    </nav>
+<div id="central-content" class="container-fluid">
+    <button type="button" id="sidebarCollapse" class="btn btn-info-navbar-btn">
+        <i class="glyphicon glyphicon-align-left"></i>
+    </button>
+    <h2>{{title}}</h2>
+    <div class="container-fluid">
+        
+        <ul id="thumbnailslist">
+            <!-- <li *ngFor="let image of (visibleImages | imageFilter:filterBy)">
+                <a [routerLink]="['/image', image.id]">
+                    <img src="{{image.url}}" class="tn" width="200" >
+                </a>
+            </li> -->
+        </ul>
+    </div>
+</div>
+</div>
