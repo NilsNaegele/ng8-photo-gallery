@@ -41,7 +41,7 @@ export class ImageService {
   }
 
   getImage(id: number) {
-
+    return IMAGES.slice(0).find(image => image.id === id);
   }
 }
 
