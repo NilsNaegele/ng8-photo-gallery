@@ -1,0 +1,19 @@
+<div class="row">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand logo pull-left" href="/photo-gallery">
+                    <i class="glyphicon glyphicon-align-left"></i>
+                    <span>{{title}}</span>
+                </a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a>Gallerie</a></li>
+                <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a>Suche</a></li>
+                <!-- <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['/gallerie']">Gallerie</a></li>
+                <li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a [routerLink]="['/suche']">Suche</a></li> -->
+            </ul>
+        </div>
+    </nav>
+</div>
+

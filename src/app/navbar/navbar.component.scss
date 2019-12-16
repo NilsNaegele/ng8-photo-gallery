@@ -1,0 +1,93 @@
+.container-fluid {
+    padding: 0;
+ }
+ 
+ nav {
+     font-family: 'Roboto', sans-serif;
+     border: none;
+     height: 60px;
+     background: url('../../assets/app_images/navbar_background.jpg') no-repeat fixed;
+ }
+ 
+ .navbar-header {
+     width: 250px; 
+ }
+ 
+ .navbar-brand {
+     width: 200px;
+     margin: 5px 0 0 25px !important;
+     background: url('../../assets/app_images/superman.png') no-repeat;
+ }
+ 
+ 
+ .glyphicon-align-left:before {
+     content: none;
+ }
+ 
+ .logo {
+     color: #fff;
+     font-family: 'Roboto', sans-serif;
+     font-size: 1.5em;
+     
+ }
+ 
+ .logo > span {
+     margin-left: 35px;
+ }
+ 
+ .logo-img {
+     background: url('../../assets/app_images/superman.png');
+     width: 50px;
+     height: 50px;
+     position: absolute;
+ }
+ 
+ /* nav buttons */
+ ul.nav a {
+     font-weight: 600;
+     color: #FFF;
+     margin: 15px 10px 0 10px;
+     background-color: transparent;
+     border-radius: 30px;
+     border: 2px solid;
+     padding: 0.5rem 18px;
+     transition: all 150ms linear;
+ }
+ 
+ .navbar-nav>.active>a:hover {
+     color: #66615B;
+     background: #FFF;
+ }
+ 
+ ul.nav a:focus {
+     background: none;
+ }
+ 
+ ul.nav a:hover {
+     color: #66615B;
+     background: #FFF;
+ }
+ 
+ @media(max-width: 768px) {
+ 
+     .navbar-nav {
+         margin-top: 0;
+     }
+ 
+     ul.nav a, ul.nav>.active>a {
+         background: rgb(55, 170, 27);
+         margin: 0;
+         border-radius: 0;
+         border: none;
+         border-top: 1px solid #FFF;
+         border-bottom: 1px solid #FFF;
+     }
+ 
+     ul.nav a:hover, .navbar-nav>.active>a:hover {
+         background: #397f27;
+         border: none;
+         color: #FFF;
+         transition: 150ms linear;
+     }
+ 
+ }
