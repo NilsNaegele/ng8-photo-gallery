@@ -26,8 +26,8 @@ export class GalleryComponent implements OnChanges {
       this.visibleImages = this.imageService.getImages();
   }
 
-  clickEvent() {
-      console.log('sidebarToggled');
+  toggleSidenav() {
+      // console.log('sidebarToggled');
       this.classes.splice(this.classes.length - 1, 1);
       this.show = !this.show;
       if (this.show) {

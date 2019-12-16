@@ -1,25 +1,29 @@
 <div class="wrapper">
     <nav id="sidebar" [ngClass]="classes">
         <div class="sidebar-header">
-            <h3>Held Gallerie</h3>
+            <h3>Nils-Holger Nägele</h3>
         </div>
         <ul class="list-unstyled components">
             <li>Nach Kategorie filtern</li>
-            <button class="btn btn-lg btn-info">
+            <button class="btn btn-lg btn-info"[class.active]="filterBy=='all'" (click)="filterBy='alle'">
                 <span class="glyphicon glyphicon-play"></span>
                 Alle<span class="selected"></span>
             </button>
-            <button class="btn btn-lg btn-info">
+            <button class="btn btn-lg btn-info" [class.active]="filterBy=='heute'" (click)="filterBy='heute'">
                 <span class="glyphicon glyphicon-play"></span>
                 Heute
             </button>
-            <button class="btn btn-lg btn-info">
+            <button class="btn btn-lg btn-info" [class.active]="filterBy=='berlin'" (click)="filterBy='berlin'">
                 <span class="glyphicon glyphicon-play"></span>
                 Marathon Berlin
             </button>
-            <button class="btn btn-lg btn-info">
+            <button class="btn btn-lg btn-info" [class.active]="filterBy=='köln'" (click)="filterBy='köln'">
                 <span class="glyphicon glyphicon-play"></span>
                 Marathon Köln
+            </button>
+            <button class="btn btn-lg btn-info" [class.active]="filterBy=='frankfurt'" (click)="filterBy='frankfurt'">
+                <span class="glyphicon glyphicon-play"></span>
+                Marathon Frankfurt
             </button>
             <button class="btn btn-lg btn-info">
                 <span class="glyphicon glyphicon-play"></span>
@@ -28,10 +32,6 @@
             <button class="btn btn-lg btn-info">
                 <span class="glyphicon glyphicon-play"></span>
                 Marathon Bremen
-            </button>
-            <button class="btn btn-lg btn-info">
-                <span class="glyphicon glyphicon-play"></span>
-                Marathon Frankfurt
             </button>
             <button class="btn btn-lg btn-info">
                 <span class="glyphicon glyphicon-play"></span>
@@ -49,10 +49,14 @@
                 <span class="glyphicon glyphicon-play"></span>
                 Extreme Wettkämpfe ...
             </button>
+            <button class="btn btn-lg btn-info">
+                <span class="glyphicon glyphicon-play"></span>
+                Superhelden
+            </button>
         </ul>
     </nav>
 <div id="central-content" class="container-fluid">
-    <button type="button" id="sidebarCollapse" class="btn btn-info-navbar-btn">
+    <button type="button" id="sidebarCollapse" class="btn btn-info-navbar-btn" (click)="toggleSidenav()">
         <i class="glyphicon glyphicon-align-left"></i>
     </button>
     <h2>{{title}}</h2>
