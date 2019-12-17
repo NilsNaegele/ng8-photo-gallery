@@ -135,6 +135,27 @@ const IMAGES = [
   {id: 126, category: 'frankfurt', caption: 'Frankfurt Okt. 2012', url: 'assets/my_images/d20.jpg'},
   {id: 127, category: 'frankfurt', caption: 'Frankfurt Okt. 2012', url: 'assets/my_images/d21.jpg'},
 
+  {id: 128, category: 'bremen', caption: 'Bremen Okt. 2012', url: 'assets/my_images/e1.jpg'},
+  {id: 129, category: 'bremen', caption: 'Bremen Okt. 2012', url: 'assets/my_images/e2.jpg'},
+  {id: 130, category: 'bremen', caption: 'Bremen Okt. 2012', url: 'assets/my_images/e3.jpg'},
+  {id: 131, category: 'bremen', caption: 'Bremen Okt. 2012', url: 'assets/my_images/e4.jpg'},
+  {id: 132, category: 'bremen', caption: 'Bremen Okt. 2012', url: 'assets/my_images/e5.jpg'},
+  {id: 133, category: 'bremen', caption: 'Bremen Okt. 2012', url: 'assets/my_images/e6.jpg'},
+  {id: 134, category: 'bremen', caption: 'Bremen Okt. 2012', url: 'assets/my_images/e7.jpg'},
+  {id: 135, category: 'bremen', caption: 'Bremen Okt. 2012', url: 'assets/my_images/e8.jpg'},
+  {id: 136, category: 'bremen', caption: 'Bremen Okt. 2012', url: 'assets/my_images/e9.jpg'},
+  {id: 137, category: 'bremen', caption: 'Bremen Okt. 2012', url: 'assets/my_images/e10.jpg'},
+  {id: 138, category: 'bremen', caption: 'Bremen Okt. 2012', url: 'assets/my_images/e11.jpg'},
+  {id: 139, category: 'bremen', caption: 'Bremen Okt. 2012', url: 'assets/my_images/e12.jpg'},
+  {id: 140, category: 'bremen', caption: 'Bremen Okt. 2012', url: 'assets/my_images/e13.jpg'},
+  {id: 141, category: 'bremen', caption: 'Bremen Okt. 2012', url: 'assets/my_images/e14.jpg'},
+  {id: 142, category: 'bremen', caption: 'Bremen Okt. 2012', url: 'assets/my_images/e15.jpg'},
+  {id: 143, category: 'bremen', caption: 'Bremen Okt. 2012', url: 'assets/my_images/e16.jpg'},
+  {id: 144, category: 'bremen', caption: 'Bremen Okt. 2012', url: 'assets/my_images/e17.jpg'},
+  {id: 145, category: 'bremen', caption: 'Bremen Okt. 2012', url: 'assets/my_images/e18.jpg'},
+
+
+
 ];
 
 @Injectable({
