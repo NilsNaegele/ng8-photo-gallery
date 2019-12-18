@@ -7,6 +7,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ImageFilterPipe } from './shared/pipes/image-filter.pipe';
 import { ImageDetailComponent } from './shared/components/image-detail/image-detail.component';
+import { SearchComponent } from './search/search.component';
+import { ImageSearchPipe } from './shared/pipes/image-search.pipe';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ImageDetailComponent } from './shared/components/image-detail/image-det
     NavbarComponent,
     GalleryComponent,
     ImageFilterPipe,
-    ImageDetailComponent
+    ImageDetailComponent,
+    SearchComponent,
+    ImageSearchPipe
   ],
   imports: [
     BrowserModule,

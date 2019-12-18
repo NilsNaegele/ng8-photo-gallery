@@ -1,3 +1,4 @@
+import { SearchComponent } from './search/search.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -8,6 +9,7 @@ import { ImageDetailComponent } from './shared/components/image-detail/image-det
 const routes: Routes = [
   { path: 'gallerie', component: GalleryComponent},
   { path: 'bild/:id', component: ImageDetailComponent},
+  { path: 'suche', component: SearchComponent },
   { path: '', redirectTo: 'gallerie', pathMatch: 'full'},
 ];
 
