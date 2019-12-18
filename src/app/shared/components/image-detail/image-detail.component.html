@@ -1,8 +1,14 @@
 <div class="wrapper">
     <div class="container">
         <div class="col-md-12">
-            <button type="button" id="backBtn" class="btn btn-info-navbar-btn" (click)="goBack()">
+            <!-- <button type="button" id="backBtn" class="btn btn-info-navbar-btn" (click)="goBack()">
                 Zurück
+            </button> -->
+            <button type="button" id="backBtn" class="btn btn-info-navbar-btn center" (click)="back()">
+                <<
+            </button>
+            <button type="button" id="backBtn" class="btn btn-info-navbar-btn pull-right" (click)="forward()">
+                >>
             </button>
             <img src="{{image.url}}" class="img-responsive img-full-size">
         </div>

@@ -58,6 +58,7 @@ const IMAGES = [
   {id: 52, category: 'berlin', caption: 'Berlin Sept. 2014', url: 'assets/my_images/b4.jpg'},
   {id: 53, category: 'berlin', caption: 'Berlin Sept. 2014', url: 'assets/my_images/b5.jpg'},
   {id: 54, category: 'berlin', caption: 'Berlin Sept. 2014', url: 'assets/my_images/b6.jpg'},
+  {id: 55, category: 'berlin', caption: 'Berlin Sept. 2014', url: 'assets/my_images/b66.jpg'},
   {id: 56, category: 'berlin', caption: 'Berlin Sept. 2014', url: 'assets/my_images/b7.jpg'},
   {id: 57, category: 'berlin', caption: 'Berlin Sept. 2014', url: 'assets/my_images/b8.jpg'},
   {id: 58, category: 'berlin', caption: 'Berlin Sept. 2014', url: 'assets/my_images/b9.jpg'},
