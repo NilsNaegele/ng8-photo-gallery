@@ -1,0 +1,14 @@
+[debug] [2019-12-20T16:13:07.164Z] ----------------------------------------------------------------------
+[debug] [2019-12-20T16:13:07.166Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Nils\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2019-12-20T16:13:07.166Z] CLI Version:   7.10.0
+[debug] [2019-12-20T16:13:07.166Z] Platform:      win32
+[debug] [2019-12-20T16:13:07.166Z] Node Version:  v10.16.3
+[debug] [2019-12-20T16:13:07.167Z] Time:          Fri Dec 20 2019 17:13:07 GMT+0100 (GMT+01:00)
+[debug] [2019-12-20T16:13:07.168Z] ----------------------------------------------------------------------
+[debug] [2019-12-20T16:13:07.168Z] 
+[debug] [2019-12-20T16:13:07.184Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-12-20T16:13:07.184Z] > authorizing via signed-in user
+[debug] [2019-12-20T16:13:07.185Z] [iam] checking project ng8-photo-gallery for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-12-20T16:13:07.187Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-12-20T16:13:07.187Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
